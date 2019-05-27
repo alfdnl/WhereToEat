@@ -2,23 +2,26 @@
 <html>
 <head>	
 	<title>test</title>
+
 </head>
 <body>
-	<h1>Testing</h1>
+	<h2>Location</h2>
+	<ul id="our-list">
+		<li>bangsar</li>
+		<li>Pj</li>
+		<li>Subang</li>
+	</ul>
+	<h2>Price Range</h2>
+	<ul id="our-list2">
+		<li>15</li>
+		<li>56</li>
+		<li>101</li>
+	</ul>
+
+	<button id="clear"> Clear </button>
+	<button id="submit"> Submit </button>
+
 	<p id="demo"></p>
-		<script>
-			var proxyUrl = 'https://cors-anywhere.herokuapp.com/', targetUrl = 'http://198.46.160.246:7777/api/infer/bangsar/15'
-			fetch(proxyUrl + targetUrl)
-  			.then(blob => blob.json())
-		    .then(data => {
-		    console.table(data);
-		    document.getElementById("demo").innerHTML = JSON.stringify(data.results, null, 2);
-		    return data;
-		  })
-		  .catch(e => {
-		    console.log(e);
-		    return e;
-		  });
-  		</script>
+<script src="main.js"></script>
 </body>
 </html>
