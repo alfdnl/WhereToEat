@@ -1,27 +1,126 @@
 <!DOCTYPE html>
 <html>
 <head>	
-	<title>test</title>
-
+	<title>MANE ?</title>	 
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h2>Location</h2>
-	<ul id="our-list">
-		<li>bangsar</li>
-		<li>Petaling jaya</li>
-		<li>Subang</li>
-	</ul>
-	<h2>Price Range</h2>
-	<ul id="our-list2">
-		<li>15</li>
-		<li>56</li>
-		<li>101</li>
-	</ul>
-
-	<button id="clear"> Clear </button>
-	<button id="submit"> Submit </button>
-
-	<p id="demo"></p>
+	<div class="text-center">
+		<h1>MANE ?</h1>
+		<p>You have no idea where to eat? Don't worry MANE? is here.</p>
+	</div>
+	<div class="wrapper">
+		
+		<form class="center">
+			<h2>Location</h2>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox1" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/bangsar" >
+				  <label class="custom-control-label" for="customcheckbox1">bangsar</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox2" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/petaling jaya">
+				  <label class="custom-control-label" for="customcheckbox2">petaling jaya</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox3" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/subang">
+				  <label class="custom-control-label" for="customcheckbox3">Subang</label>
+				</div>
+				<!-- Price Range -->
+			<h2>Price Range</h2>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox4" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/10" >
+				  <label class="custom-control-label" for="customcheckbox4">$</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox5" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/30">
+				  <label class="custom-control-label" for="customcheckbox5">$$</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox6" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/70">
+				  <label class="custom-control-label" for="customcheckbox6">$$$</label>
+				</div>								
+				<!-- Halal or not -->
+			<h2>Halal or Non-halal</h2>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox7" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/halal" >
+				  <label class="custom-control-label" for="customcheckbox7">Halal</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox8" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/non-halal">
+				  <label class="custom-control-label" for="customcheckbox8">Non-halal</label>
+				</div>				
+				<!-- Preferences -->
+			<h2>Meat or Vegetarian</h2>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox9" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/meat" >
+				  <label class="custom-control-label" for="customcheckbox9">Meat</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox10" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/vegetarian">
+				  <label class="custom-control-label" for="customcheckbox10">Vegetarian</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox11" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/*">
+				  <label class="custom-control-label" for="customcheckbox11">Anything</label>
+				</div>				
+			<h2>Cuisine type</h2>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox12" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/*" >
+				  <label class="custom-control-label" for="customcheckbox12">Anything</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox13" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/malay">
+				  <label class="custom-control-label" for="customcheckbox13">Malay</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox14" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/indian">
+				  <label class="custom-control-label" for="customcheckbox14">Indian</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox15" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/chinese" >
+				  <label class="custom-control-label" for="customcheckbox15">Chinese</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox16" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/mamak">
+				  <label class="custom-control-label" for="customcheckbox16">Mamak</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox17" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/dessert">
+				  <label class="custom-control-label" for="customcheckbox17">Dessert</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox18" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/western">
+				  <label class="custom-control-label" for="customcheckbox18">Western</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox19" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/others">
+				  <label class="custom-control-label" for="customcheckbox19">Others</label>
+				</div>													
+			<h2>Payment Type</h2>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox20" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/cash" >
+				  <label class="custom-control-label" for="customcheckbox20">Cash</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox21" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="/card">
+				  <label class="custom-control-label" for="customcheckbox21">Card</label>
+				</div>
+				<div class="custom-control custom-checkbox">
+				  <input type="checkbox" id="customcheckbox22" name="customcheckbox" class="custom-control-input"onclick="myFunction()" value="">
+				  <label class="custom-control-label" for="customcheckbox22">Anything</label>
+				</div>			
+			<br><br>
+				<!-- <input type="text" id="order" size="100">	 -->
+		</form>
+	
+		<button id="submit" class="btn btn-primary" onclick="submiting()"> Get Recommendations! </button>
+	</div>
+<p id="demo"></p>
+<!-- Scripts -->
 <script src="main.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
